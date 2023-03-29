@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --colors: rgb(60, 60, 100);
+  --blue: rgb(15, 15, 235);
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

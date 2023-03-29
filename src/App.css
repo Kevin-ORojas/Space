@@ -1,0 +1,41 @@
+.App {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Delicious Handrawn', cursive;
+    padding: 0 10px;
+}
+
+button:hover {
+    color: red;
+}
+
+article {
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+
+.bg1 {
+    background-image: url("/images/bg1.jpg");
+
+}
+
+.bg2 {
+    background-image: url("/images/bg2.jpg");
+}
+
+.bg3 {
+    background-image: url("/images/bg3.jpg");
+}
+
+.bg4 {
+    background-image: url("/images/bg4.jpg");
+}
