@@ -57,42 +57,4 @@
     }
 }
 
-@media (min-width: 375px) {
-    .containerInfo_author{
-        transform: translateX(10%);
-    }
-    p{
-        font-size: 20px;
-    }
-}
 
-@media (min-width: 425px){
-    .containerInfo_author{
-        transform: translateX(16%);
-    }
-}
-
-@media (min-width: 768px){
-    .containerInfo_author{
-        transform: translateX(70%);
-    }
-}
-
-@media (min-width: 1024px){
-    .containerInfo_author{
-        transform: translateX(110%);
-    }
-}
-
-@media (min-width: 1440px){
-    .containerInfo_author{
-        transform: translateX(190%);
-    }
-}
-
-@media (min-width: 1440px){
-    .containerInfo_author{
-        transform: translateX(370%);
-    }
-}
-    
