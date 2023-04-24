@@ -26,7 +26,7 @@
     
     font-family: 'Delicious Handrawn', cursive;
     left: 0px;
-    top: 0px;
+    top: px;
     text-align: center;
     font-size: 23px;
     border-radius: 39px;
@@ -38,11 +38,10 @@
 }
 
 
-    
-
 .containerInfo_author {
     width: 300px;
-    height: 200px;
+    height: 270px;
+    left: -10px;
     background-image: url("/images/planet.png");
     background-size: cover;
     position: absolute;
@@ -53,84 +52,47 @@
 }
 
 @media (min-width: 320px){
-    p {
-        font-size: 20px;
+    p{
+       font-size: 18px;
     }
 }
 
 @media (min-width: 375px) {
-    .containerInfo_author {
-        left: 30px;
+    .containerInfo_author{
+        transform: translateX(10%);
     }
-}
-
-@media (min-width: 425px) {
-    .containerInfo_author {
-        left: 60px;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .containerInfo_author {
-        left: 25%;
-        width: 400px;
-        height: 300px;
-    }
-
-    .containerInfo_tittle{
-        font-size: 180%;
-        top: 20px;
-    }
-
-    .containerInfo_phrase{
-      height: 300%;
-    }
-    
     p{
         font-size: 20px;
     }
 }
 
+@media (min-width: 425px){
+    .containerInfo_author{
+        transform: translateX(16%);
+    }
+}
+
+@media (min-width: 768px){
+    .containerInfo_author{
+        transform: translateX(70%);
+    }
+}
 
 @media (min-width: 1024px){
     .containerInfo_author{
-        width: 450px;
-        height: 300px;
-        left: 30%;
-    }
-    .containerInfo_tittle{
-        font-size: 35px;
-        top: 25px;
-    }
-    .containerInfo_phrase{
-        height: 320px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-    p{
-        font-size: 25px;
+        transform: translateX(110%);
     }
 }
 
-@media (min-width: 1215px){
+@media (min-width: 1440px){
     .containerInfo_author{
-        width: 450px;
-        height: 300px;
-        left: 35%;
+        transform: translateX(190%);
     }
-
-    .containerInfo_tittle{
-        font-size: 300%;
-    }
-    .containerInfo_phrase{
-       width: 400px;
-       height: 280px;
-      }
-
-    p{
-        font-size: 25px;
-    }  
 }
+
+@media (min-width: 1440px){
+    .containerInfo_author{
+        transform: translateX(370%);
+    }
+}
+    
