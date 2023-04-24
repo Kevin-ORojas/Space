@@ -14,7 +14,9 @@
     cursor: pointer;
 }
 
+h4{
 
+}
 
 .containerInfo_tittle:hover {
     color: rebeccapurple;
@@ -28,7 +30,7 @@
     left: 0px;
     top: px;
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     border-radius: 39px;
     padding: 70px 33px 70px 33px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
@@ -40,8 +42,8 @@
 
 .containerInfo_author {
     width: 300px;
-    height: 270px;
-    left: -10px;
+    height: 230px;
+    left:0px;
     background-image: url("/images/planet.png");
     background-size: cover;
     position: absolute;
@@ -51,10 +53,69 @@
     justify-content: center ;
 }
 
-@media (min-width: 320px){
+p{
+    font-size: 18px;
+}
+
+
+
+@media (min-width: 375px){
+    .containerInfo_author {
+        left: 30px;
+    }
+    p{
+       font-size: 15px;
+    }
+}
+
+@media (min-width: 425px){
+    .containerInfo_author {
+        left: 50px;
+    }
     p{
        font-size: 18px;
     }
 }
+
+@media (min-width: 475px){
+    .containerInfo_author {
+        left: 80px;
+    }
+    p{
+       font-size: 18px;
+    }
+}
+
+@media (min-width: 768px){
+    .containerInfo_author {
+        left: 230px;
+    }
+    p{
+       font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px){
+    .containerInfo_author {
+        width: 400px;
+        height: 300px;
+        left:300px;
+    }
+    p{
+       font-size: 18px;
+    }
+}
+
+@media (min-width: 1224px){
+    .containerInfo_author {
+        width: 400px;
+        height: 300px;
+        left:600px;
+    }
+    p{
+       font-size: 18px;
+    }
+}
+
 
 
