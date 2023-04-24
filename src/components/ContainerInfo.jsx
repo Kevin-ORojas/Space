@@ -9,6 +9,7 @@ const ContainerInfo = ({ quote, handleNewQuote }) => {
 
     
     <section className="containerInfo">
+      
       <h1 className="containerInfo_tittle">About Galaxys</h1>
       <div className= "containerInfo_button">
         <ButtonIcon onClick={handleNewQuote}>
@@ -24,7 +25,12 @@ const ContainerInfo = ({ quote, handleNewQuote }) => {
       <article className="containerInfo_author">
         <h4>fuente: {quote.author}</h4>
       </article>
+
+     
+      
     </section>
+
+    
   );
 };
 
